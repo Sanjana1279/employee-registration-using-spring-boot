@@ -141,4 +141,4 @@ SELECT * FROM EMPLOYEE;
 ## **GitHub Repository**
 
 Repository URL:
-https://github.com/username/employee-registration](https://github.com/Sanjana1279/employee-registration-using-spring-boot
+https://github.com/Sanjana1279/employee-registration-using-spring-boot

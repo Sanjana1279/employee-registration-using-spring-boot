@@ -1,5 +1,11 @@
 # Employee Registration API
 
+[![Java](https://img.shields.io/badge/Java-17-blue)](https://www.java.com/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen)](https://spring.io/projects/spring-boot)
+[![H2 Database](https://img.shields.io/badge/H2-Database-orange)](https://www.h2database.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](#)
+# Employee Registration API
+
 A **Spring Boot REST API** for employee management with **H2 in-memory database**, **Spring Security (Basic Auth)**, and **Swagger UI** for API documentation and testing.  
 
 This project allows you to **register employees**, **fetch employee details**, and **compute salary statistics**.
@@ -43,7 +49,7 @@ This project allows you to **register employees**, **fetch employee details**, a
 - Swagger / OpenAPI for documentation  
 
 ---
-## project-structure
+## **Project Structure**
 employee-registration/
 │
 ├─ src/main/java/com/employeeregistration
@@ -135,4 +141,4 @@ SELECT * FROM EMPLOYEE;
 ## **GitHub Repository**
 
 Repository URL:
-https://github.com/username/employee-registration
+https://github.com/username/employee-registration](https://github.com/Sanjana1279/employee-registration-using-spring-boot

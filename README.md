@@ -15,9 +15,7 @@ This project allows you to **register employees**, **fetch employee details**, a
 ## **Table of Contents**
 
 - [Features](#features)  
-- [Technologies Used](#technologies-used)  
-- [Project Structure](#project-structure)  
-- [Setup Instructions](#setup-instructions)  
+- [Technologies Used](#technologies-used)   
 - [API Endpoints](#api-endpoints)  
 - [Testing](#testing)  
 - [H2 Database](#h2-database)  
@@ -47,34 +45,6 @@ This project allows you to **register employees**, **fetch employee details**, a
 - H2 Database (In-memory)  
 - Maven for dependency management  
 - Swagger / OpenAPI for documentation  
-
----
-## **Project Structure**
-employee-registration/
-│
-├─ src/main/java/com/employeeregistration
-│ ├─ config/
-│ │ └─ SecurityConfig.java
-│ ├─ controller/
-│ │ └─ EmployeeController.java
-│ ├─ dto/
-│ │ ├─ EmployeeRegisterRequest.java
-│ │ ├─ EmployeeResponse.java
-│ │ └─ SalarySummary.java
-│ ├─ entity/
-│ │ └─ Employee.java
-│ ├─ repository/
-│ │ └─ EmployeeRepository.java
-│ ├─ security/
-│ │ └─ CustomUserDetailsService.java
-│ ├─ service/
-│ │ └─ EmployeeService.java
-│ └─ EmployeeRegistrationApplication.java
-│
-├─ src/main/resources/
-│ ├─ application.properties
-│
-└─ pom.xml
 
 ---
 

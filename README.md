@@ -3,7 +3,6 @@
 [![Java](https://img.shields.io/badge/Java-17-blue)](https://www.java.com/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen)](https://spring.io/projects/spring-boot)
 [![H2 Database](https://img.shields.io/badge/H2-Database-orange)](https://www.h2database.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](#)
 
 
 A **Spring Boot REST API** for employee management with **H2 in-memory database**, **Spring Security (Basic Auth)**, and **Swagger UI** for API documentation and testing.  

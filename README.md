@@ -95,6 +95,16 @@ User: sa
 Password: (leave empty)
 
 ---
+
+## **Swagger UI**
+
+**Access Swagger UI:**
+
+http://localhost:8081/swagger-ui/index.html
+
+Allows testing all API endpoints interactively.
+
+---
 ## **Security**
 
 Uses Spring Security Basic Authentication

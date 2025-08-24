@@ -93,6 +93,10 @@ User: sa
 
 Password: (leave empty)
 
+SELECT * FROM EMPLOYEE; → all rows.
+
+SELECT * FROM EMPLOYEE LIMIT 10; → first 10 rows only.
+
 ---
 
 ## **Swagger UI**

@@ -43,8 +43,36 @@ This project allows you to **register employees**, **fetch employee details**, a
 - Swagger / OpenAPI for documentation  
 
 ---
+## project-structure
+employee-registration/
+│
+├─ src/main/java/com/employeeregistration
+│ ├─ config/
+│ │ └─ SecurityConfig.java
+│ ├─ controller/
+│ │ └─ EmployeeController.java
+│ ├─ dto/
+│ │ ├─ EmployeeRegisterRequest.java
+│ │ ├─ EmployeeResponse.java
+│ │ └─ SalarySummary.java
+│ ├─ entity/
+│ │ └─ Employee.java
+│ ├─ repository/
+│ │ └─ EmployeeRepository.java
+│ ├─ security/
+│ │ └─ CustomUserDetailsService.java
+│ ├─ service/
+│ │ └─ EmployeeService.java
+│ └─ EmployeeRegistrationApplication.java
+│
+├─ src/main/resources/
+│ ├─ application.properties
+│
+└─ pom.xml
 
-**API Endpoints**
+---
+
+## **API Endpoints**
 | Method | Endpoint                      | Description           | Auth Required    |
 | ------ | ----------------------------- | --------------------- | ---------------- |
 | POST   | /api/employees/register       | Register new employee | No               |
@@ -54,7 +82,7 @@ This project allows you to **register employees**, **fetch employee details**, a
 
 
 ---
-**Testing**
+## **Testing**
 **1.Postman**
 
 **Register:**
@@ -77,7 +105,7 @@ Username: sanjana123
 Password: pass123
 
 ---
-**H2 Database**
+## **H2 Database**
 
 Access the H2 console:
 
@@ -90,8 +118,21 @@ User: sa
 
 Password: (leave empty)
 
+---
+## **Security**
+
+Uses Spring Security Basic Authentication
+
+Passwords are stored encrypted using BCrypt
+
+/register endpoint is public; all others require login
+
 Example query to see all employees:
 
 SELECT * FROM EMPLOYEE;
 
 ---
+## **GitHub Repository**
+
+Repository URL:
+https://github.com/username/employee-registration

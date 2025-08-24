@@ -19,12 +19,15 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http.csrf().disable()
+        http.csrf().disable() // Disable CSRF protection for now (needed for H2 console)
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/employees/register", "/swagger-ui/**", "/v3/api-docs/**").permitAll()
+                        .requestMatchers("/api/employees/register", "/swagger-ui/**", "/v3/api-docs/**", "/h2-console/**").permitAll() // Allow H2 console
                         .anyRequest().authenticated()
                 )
                 .httpBasic();
+
+        // Allow H2 console to work within an iframe (needed by the H2 console)
+        http.headers().frameOptions().sameOrigin();
         return http.build();
     }
 
